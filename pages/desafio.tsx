@@ -67,7 +67,6 @@ const handleChange = (event) => {
 }
 
 const CalcularUf = () => {
-  // console.log(valorIngresado)
   const valorUF = datos[paginaActual - 1].node.pair_numeric;
   setValorFinalUf(valorIngresado * valorUF);
   return valorIngresado;
