@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 
 import img_meme_hormiga from "~/public/meme_hormiga.png";
-import img_mestreensinador from "~/public/mestreensinador.webp";
 
 export default function PagesRoot() {
   const href = "https://www.fraccional.cl?ref=fraccionar";

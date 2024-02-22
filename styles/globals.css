@@ -9,6 +9,7 @@ html {
    */
   font-size: 16px;
 
+
   /* Disable Android highlight */
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -webkit-tap-highlight-color: transparent;
@@ -25,6 +26,13 @@ html {
   /* Add here */
 }
 
+.subtitulos{
+  color: #6B7280;
+}
+
+.destacado{
+  color: #E59100;
+}
 /* Intercom responsive hacks */
 /* .intercom-lightweight-app-launcher.intercom-launcher {
   @apply !mb-[calc(4rem+env(safe-area-inset-bottom))] lg:!mb-0;
@@ -35,3 +43,89 @@ html {
 .intercom-messenger-frame {
   @apply !mb-[calc(4rem+env(safe-area-inset-bottom))] lg:!mb-0;
 } */
+
+.formUF{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(75 85 99/1);
+  padding: 32px;
+  border-radius: 25px;
+  background-color: rgb(17 24 39/1);
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.formHistorico{
+  display: flex;
+  flex-direction: row;
+  
+  padding: 32px;
+  
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.search-container {
+  text-align: right; /* Alinea el contenedor a la derecha */
+  margin-bottom: 10px; /* Espacio entre el campo de búsqueda y la tabla */
+}
+
+#searchInput {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.container-button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  margin: 32px;
+  justify-content: center;
+}
+
+.inputUF{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10%;
+}
+
+.tituloUF{
+  text-align: left;
+  margin: 32px 0 32px 0;
+}
+
+.btn-calcular{
+  background-color: #E59100;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    margin: 0px 42px;
+}
+
+section{
+  padding: 0 25%;
+}
+
+.tablaHistorica{
+  border: 1px solid rgb(75 85 99/1);
+  border-radius: 1.25rem;
+  padding: 32px;
+  width: 100%;
+}
+
+table{
+  border-collapse: unset;
+  padding: 12px;
+  background-color: rgb(17 24 39/1);
+}
